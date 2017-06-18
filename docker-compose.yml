@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  web:
+    restart: always
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - /local/path/log:/log

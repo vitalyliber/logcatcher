@@ -1,0 +1,5 @@
+{"serverName": "QA",
+	"logs":[
+		{"appName":"Syslog", "logPath": "/log/staging.log"}
+	]
+}
