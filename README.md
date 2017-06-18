@@ -20,7 +20,7 @@ volumes:
 _config.json_
 
 ```apple js
-		{"appName":"MyApp", "logPath": "/log/staging.log"}
+{"appName":"MyApp", "logPath": "/log/staging.log"}
 ```
 
 ### Start the LogCatcher
