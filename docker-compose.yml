@@ -3,7 +3,7 @@ version: "2"
 services:
 
   web:
-    restart: always
+    restart: unless-stopped
     build: .
     ports:
       - "8080:8080"
